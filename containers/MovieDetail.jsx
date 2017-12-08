@@ -34,9 +34,9 @@ function MovieDetail(props) {
         secondaryMovie={props.secondaryMovie}
       />
   } else if (mainView === 'map') {
-    returnDom = null;
-  } else if (mainView === 'locationSentiment') {
     returnDom = <Location />;
+  } else if (mainView === 'locationSentiment') {
+    returnDom = null;
   } else {
     returnDom =
     <Graph

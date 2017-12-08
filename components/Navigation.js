@@ -106,12 +106,12 @@ class Navigation extends React.Component {
           label="Map"
           primary={view === 'map' ? true : false}
         ></RaisedButton>
-        <RaisedButton
+        {/* <RaisedButton
           id='navBtnTwitter'
           onClick={(evt) => this.navButtonClick('navBtnTwitter')}
           label="Twitter"
           primary={view === 'locationSentiment' ? true : false}
-        ></RaisedButton>
+        ></RaisedButton> */}
       </div>
     )
   }
